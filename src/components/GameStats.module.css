@@ -1,0 +1,18 @@
+.gameStats {
+    color: white;
+}
+
+.gameInfo {
+    text-align: center;
+    padding: 10px;
+}
+
+.winMessage {
+    composes: gameInfo;
+    color: #4caf50;
+}
+
+.looseMessage {
+    composes: gameInfo;
+    color: #f44336;
+}
